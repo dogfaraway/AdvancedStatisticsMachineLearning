@@ -30,8 +30,8 @@
 ################################################################################
 ### Section 2.1 Case Study: Predicting Fuel Economy ####
 
-library(AppliedPredictiveModeling
-        data(FuelEconomy)
+library(AppliedPredictiveModeling)
+data(FuelEconomy)
 help(cars2010) # ? is an alias of help()
 
 ## The http://fueleconomy.gov website, run by the U.S. Department of Energy's Office of Energy Efficiency and Renewable Energy and the U.S. Environmental Protection Agency, lists different estimates of fuel economy for passenger cars and trucks. For each vehicle, various characteristics are recorded such as the engine displacement (note: it is the swept volume of all the pistons inside the cylinders of a reciprocating engine in a single movement from top dead centre, TDC, to bottom dead centre, BDC. https://en.wikipedia.org/wiki/Engine_displacement) or number of cylinders. Along with these values, laboratory measurements are made for the city and highway miles per gallon (MPG) of the car.

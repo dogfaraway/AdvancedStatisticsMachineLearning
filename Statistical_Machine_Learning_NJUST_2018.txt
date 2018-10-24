@@ -1,0 +1,27 @@
+Advanced Statistical Analysis (Statistical Machine Learning) at NJUST, Autumn 2018
+
+Classes time: Tuesday morning 08:00~08:45, 08:50~09:35, 09:40~10:25, 10:40~11:25 (180 minutes) and Wednesday night 19:00~19:45, 19:50~20:35, 20:45~21:25 (135 minutes)
+
+Textbook: Kuhn, M. and Johnson, K. (2013). Applied Predictive Modeling. Springer, New York. ISBN 978-1-4614-6848-6.
+
+The course is designed as the basic machine learning course for non-IT majoring students. The format of this course will be lecture and class discussion and the course material will be divided into three units: 1) Unsupervised Learning, 2) Supervised Learning, and 3) Parameters Tuning and Ensemble Learning. Enrolled students are under the assumption that the basic statistics and matrix algebra have been completed before taking this course.
+
+Week #7 10/09(Tue.) 1st: Introduction & A Short Tour 
+Week #7 10/10(Wed.) 2nd: Data Pre-Processing
+Week #8 10/16(Tue.) 3rd: Over-Fitting and Model Tuning
+Week #8 10/17(Wed.) 4th: Measuring Performance in Regression Models
+Week #9 10/23(Tue.) 5th: Linear Regression and Its Cousins: Partial Least Squares and Penalized Methods
+Week #9 10/24(Wed.) 6th: Nonlinear Regression Models (*** Assignment #1 released ***)
+Week #10 10/30(Tue.) 7th: Regression Trees and Rule-Based Models
+Week #10 10/31(Wed.) 8th: Measuring Performance in Classification Models (*** Assignment #1 delivery deadline ***)
+Week #11 11/06(Tue. 18:15~21:25) 9th: Discriminant Analysis and Other Linear Classification Models
+Week #11 11/07(Wed.) 10th: Nonlinear Classification Models (*** Assignment #2 released ***)
+Week #12 11/13(Tue. 18:15~21:25) 11th: Classification Trees and Rule-Based Models
+Week #12 11/14 (Wed.) 12th: Feature Selection & Review (*** Assignment #2 delivery deadline ***)
+Week #13 11/20 (Tue.) 13th: Structural Equation Modeling (I)
+Week #13 11/21 (Wed.) 14th: Structural Equation Modeling (II)
+ 
+
+% Assignment #1 will be some model building work for specific dataset in Rmd format or ipynb. Students without programming background can do it by RAnalyticFlow or Orange.
+% Assignment #2 will be some model building work for specific dataset in Rmd format or ipynb. Students without programming background can do it by RAnalyticFlow or Orange.
+% Term (Academic) paper for each registered student at most 15 pages in CRISP-DM steps (https://en.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining). R/Python codes explanation should be provided by Rmd/ipynb format.

@@ -1,0 +1,33 @@
+Assignment # 1: Data_Preprocessing_and_Unsupervised_Learning
+
+Attached below is a cell segmentation data set. Please do the data understanding first. After that, please use Python to select the training set, create feature matrix, create class label vector, pick out low variance feature(s), differentiate categorical features from numeric features, transform skewed feature(s) by Box-Cox Transformation, perform the dimensionality reduction by Principal Component Analysis (PCA), and filter out redundant (numeric) features according to their correlation. Finally, tell me what kind of unsupervised learning you would like to do, and what we could expect from such exploratory work.
+
+
+
+Delivery date: Nov./05/2018 24:00
+Delivery style: Jupyter Notebook (Assignment#1_yourschoolnumber.ipynb)
+
+Please email your ipynb file to cstsou@126.com.
+
+Rating hints: (10 marks each part)
+
+
+1. Data understanding
+
+2. Select the training set
+
+3. Create feature matrix
+
+4. Create class label vector(label encoding or one-hot encoding)
+
+5. Pick out low variance feature(s)
+
+6. Differentiate categorical features from numeric features
+
+7. Transform skewed feature(s) by Box-Cox Transformation
+
+8. Perform the dimensionality reduction by Principal Component Analysis (PCA)
+
+9. Filter out redundant (numeric) features according to their correlation
+
+10. What kind of unsupervised learning and what can we expect from it?

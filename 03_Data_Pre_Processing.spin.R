@@ -35,14 +35,11 @@ library(AppliedPredictiveModeling)
 data(segmentationOriginal)
 
 library(mice)
-md.pattern(segmentationOriginal)
+md.pattern(segmentationOriginal, plot = TRUE) # No missing values in this dataset
 
-md.pattern(nhanes) # No missing values in this dataset
 
 library(VIM)
 aggr(segmentationOriginal)
-
-aggr(nhanes)
 
 help(segmentationOriginal)
 head(segmentationOriginal, n = 10L)
@@ -66,7 +63,7 @@ segTrainXNC <- segTrainX[, -statusColNum] # NC: no categorical vars.
 
 ## 移除變異為0和近乎為0者 (Removing zero variance varibales or near-zero-variance variables)
 library(caret) # for function 'nearZeroVar'
-head(nearZeroVar(segTrainX, saveMetrics=TRUE))
+print(nearZeroVar(segTrainX, saveMetrics=TRUE))
 # 變異為0的變數 (Identify zero variance variable)
 names(segTrainX)[nearZeroVar(segTrainX, saveMetrics=TRUE)$zeroVar]
 # remove two zero-variance variables
@@ -109,7 +106,7 @@ help(preProcess)
 
 ## Apply the transformations
 segTrainTrans <- predict(segPP, segTrainX) # predict(model_object模型, new_data數據)
-
+segTrainTrans
 ## Results for a single predictor
 segPP$bc$VarIntenCh3 # there are 47 "bc"s
 ### Fig. 3.2 ####

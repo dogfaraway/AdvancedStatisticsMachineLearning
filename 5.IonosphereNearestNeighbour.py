@@ -46,6 +46,7 @@ X.dtype
 
 # {0:.2f}.format()
 from sklearn.model_selection import train_test_split
+import pandas as pd
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=14)
 print("There are {} samples in the training dataset".format(X_train.shape[0]))

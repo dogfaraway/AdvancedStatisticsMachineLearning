@@ -11,7 +11,7 @@ import pandas as pd
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
 
-lastfm = pd.read_csv("~/cstsouMac/RandS/Rexamples/Ledolter/lastfm.csv")
+lastfm = pd.read_csv("./lastfm.csv")
 
 # 檢視資料結構
 lastfm.dtypes
